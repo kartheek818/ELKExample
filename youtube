@@ -3,7 +3,7 @@ https://www.youtube.com/watch?v=u8iqruuVhIk
 
 node {
     stage ('GIT CheckOut') {
-        git 'https://github.com/VamsiTechTuts/java...
+        git 'https://github.com/VamsiTechTuts/javaprojrepo'
     }
     stage ('Build Artifact') {
         dir('demoweb') {
